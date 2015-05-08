@@ -187,7 +187,7 @@ Gem::Specification.new do |s|
   ]
 
   s.add_dependency "sinatra",         "= 1.4.5"
-  s.add_dependency "backports",       "= 3.6.0"
+  s.add_dependency "backports",       "= 3.6.1"
   s.add_dependency "tilt",            "= 1.4.1"
   s.add_dependency "rack",            "= 1.5.2"
   s.add_dependency "rack-test",       "= 0.6.2"
