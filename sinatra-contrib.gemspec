@@ -186,14 +186,14 @@ Gem::Specification.new do |s|
     "spec/streaming_spec.rb"
   ]
 
-  s.add_dependency "sinatra",   "~> 1.4.0"
-  s.add_dependency "backports", ">= 2.0"
-  s.add_dependency "tilt",      "~> 1.3"
+  s.add_dependency "sinatra",   "= 1.4.5"
+  s.add_dependency "backports", "= 2.0"
+  s.add_dependency "tilt",      "= 1.3"
   s.add_dependency "rack-test"
   s.add_dependency "rack-protection"
   s.add_dependency "multi_json"
 
-  s.add_development_dependency "rspec", "~> 2.3"
+  s.add_development_dependency "rspec", "= 2.3.0"
   s.add_development_dependency "haml"
   s.add_development_dependency "erubis"
   s.add_development_dependency "slim"
