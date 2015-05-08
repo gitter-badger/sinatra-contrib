@@ -1,7 +1,7 @@
 source "https://rubygems.org" unless ENV['QUICK']
 gemspec
 
-gem 'sinatra', :github => 'sinatra/sinatra'
+gem 'sinatra', :github => 'sinatra/sinatra', :ref => 'f7dfcb'
 
 group :development, :test do
   platform :ruby_18, :jruby do

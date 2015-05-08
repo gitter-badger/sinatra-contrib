@@ -1,0 +1,67 @@
+GIT
+  remote: git://github.com/sinatra/sinatra.git
+  revision: 298466de07baa85a4aa01eb91145fa26c4342d55
+  specs:
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+
+PATH
+  remote: .
+  specs:
+    sinatra-contrib (1.4.2)
+      backports (= 2.0)
+      multi_json
+      rack-protection
+      rack-test
+      sinatra (~> 1.4.5)
+      tilt (= 1.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    backports (2.0.0)
+    diff-lcs (1.1.3)
+    erubis (2.7.0)
+    haml (4.0.6)
+      tilt
+    json (1.8.2)
+    multi_json (1.11.0)
+    rack (1.6.1)
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rake (10.4.2)
+    rspec (2.3.0)
+      rspec-core (~> 2.3.0)
+      rspec-expectations (~> 2.3.0)
+      rspec-mocks (~> 2.3.0)
+    rspec-core (2.3.1)
+    rspec-expectations (2.3.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.3.0)
+    slim (1.0.1)
+      temple (~> 0.3.0)
+      tilt (~> 1.2)
+    temple (0.3.5)
+    tilt (1.3)
+    yajl-ruby (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  erubis
+  haml
+  json
+  multi_json
+  rack
+  rake
+  rspec (= 2.3.0)
+  sinatra!
+  sinatra-contrib!
+  slim
+  tilt
+  yajl-ruby
